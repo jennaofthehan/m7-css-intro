@@ -1,6 +1,7 @@
 img {
     width: 100%;
     height: auto;
+    position:relative;
 }
 
 
@@ -14,3 +15,30 @@ img {
 
 
 /* Assign styles here */
+.label{
+	z-index:1;
+	position:absolute;
+	color:white;
+}
+
+
+.center{
+	top:50%;
+}
+
+.middle{
+	width:100%;
+	text-align: center;
+}
+
+.right{
+	right:2px;
+}
+
+.bottom{
+	bottom:5px;
+}
+
+.left{
+	left:2px;
+}
